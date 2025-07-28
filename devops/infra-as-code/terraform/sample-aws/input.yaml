@@ -1,22 +1,22 @@
 # Replace with the name which you want to give to your EKS cluster
 # Cluster name can have only lowercase alphanumeric characters and hyphens
 # For example: "digit-demo"
-cluster_name: "pgroneclicknew"
+cluster_name: "demotest"
 
 # Name you want to give to your Database
 # DB name must contain only alphanumeric characters
-db_name: "pgroneclickdb"
+db_name: "demotestdb"
 
 # Replace with DB username you want
 # DB user name must contain only alphanumeric characters
-db_username: "pgroneclick" 
+db_username: "demotestuser"
 
 # Replace with Domain name you want for your web applications
-domain_name: "pgroneclick.digit.org"
+domain_name: "demotest.digit.org"
 
 # Replace with the name you want to give to your S3 bucket which is used to store the terraform state
-terraform_state_bucket_name: "pgroneclick-state-s3-bucket"
+terraform_state_bucket_name: "demotest-state-s3-bucket"
 
-public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCPNCcm20JXT0IxJ9UJVo4vM766dms04AA7/0rSMiLN2L6+ur1HK7n7OG3fqmHANmDKkYlJVz+YXaIEfwFZJ+2nS8/bYt8vxMO/NnNZA/pQIsPG0wiq4B8+rvENI/7ndd3EcHoaO9ONkbqHT1YW46KoeZ2PF7J0P7wgIDe4qG7HzeC4Fyt01jjTs3NLzq6sZXq5fUse1CHZ5rCpTfk8eC+up5ER99VSh8yKT7c32/g9JG3Svc0BlXDjE1aO19nmqtjvNQrnYQ0RWwyrWaLDGqy/9q23RCFie0TMKZz890zE5GPdPg4ksbJdhccvcJunGl+dSddIotp603lENfPXj1BF"
+public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDrJEK+R01Q9fr6FEDIokT4N26tO7XGhCY/C9khGAJa7S/pDvRBt8JhJjTyvF2WSnhqxAuFiAF4y5d/F5BK8iBGAQymspiiR9QFXEdKTLSNPIzaaDW2yWVZNd9yzmTgVspnfkHyJ1kcCdlSUpXB7MQVS4KnkqpTEDrnfVswLNKmn3A/D0Q61j0dH/p5+gtXrANAJrUAr++Fbm9q0RPgfhPuh+aW7HbAYy4YIK7lDcYUB3ZAS8tpYAt+rI1pMYf6c+CxZxS+mJ4cb+g5oI2xhwbkSTJndu9nlrY0wQc3HN1ks1QCxwXLwp3HL2pFDHBq9UcgNg3nuhIneeje6rmozh/d" 
 
 tenant_id: "statea"
