@@ -145,7 +145,7 @@ configmaps:
 
 root-ingress:
   name: root-ingress
-  namespace: egov
+  namespace: bsckbone
   cert-issuer: "letsencrypt-staging"
   appRoot: digit-ui
   serviceName: digit-ui
